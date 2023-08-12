@@ -11,3 +11,9 @@ There exist two variables to be adjusted: "p," which accounts for asymmetry, and
 
 Also, many thanks to the answer from Rustam Guliev who provided a solution with optimized memory usage in https://stackoverflow.com/questions/29156532/python-baseline-correction-library
 ## More Function:
+### Find peaks:
+By using a implended find-peak functions in Scipy, a list of peaks can be found by an adjusted parameter, prominence. This can only help to determine the peak roughly but for finding a more accurate result, other function may be needed.
+### Range setting:
+Some analyses only focus on the part of the whole scan of the data. By inputting the lower and upper range of the function, data selection can be undertaken.
+### Moving average:
+A parameter with a range from 0 to 15 for the moving average method to remove the noise in data.
