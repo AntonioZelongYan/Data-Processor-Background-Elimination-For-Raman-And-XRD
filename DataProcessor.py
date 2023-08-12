@@ -178,7 +178,7 @@ class Application(tk.Frame):
         self.ax2.plot(temp_x_data, temp_y_data, color='black')
  
         self.ax2.scatter(self.peakx, self.peaky,s=200, c='red', marker='*')
-        self.ax2.set_xlabel('Wavelength')
+        self.ax2.set_xlabel('X-axis')
         self.ax2.set_ylabel('Intensity')
         self.ax2.set_title('Preview')
         self.ax2.relim()  # Recalculate the data limits
