@@ -2,5 +2,5 @@
 The Data Processor for Background Elimination is a computational tool designed to enhance the accuracy and reliability of data with huge variance. In material science, powerful techniques are widely used in various scientific and industrial fields, such as XRD and Raman Spectroscopy. However, both techniques often encounter challenges posed by background signals, especially in nanomaterial, which can obscure or distort the target signals, leading to inaccurate interpretation and quantification of results.
 
 The Data Processor for Background Elimination addresses this issue by implementing Alternating Least Squares algorithms to remove unwanted background contributions from the data. With two parameters in the algorithm, the data representation is more reproducible. The tool is specifically tailored to the unique characteristics of these techniques, offering a comprehensive solution for researchers and analysts seeking meaningful insights and references from their experimental data.
-##User Interface
+## User Interface
 ![GUI](https://github.com/AntonioZelongYan/Data-Processor-Background-Elimination-For-Raman-And-XRD/assets/138164005/ce875360-3296-44f7-bcd2-e0623094f213)
