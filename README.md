@@ -17,3 +17,4 @@ By using a implended find-peak functions in Scipy, a list of peaks can be found 
 Some analyses only focus on the part of the whole scan of the data. By inputting the lower and upper range of the function, data selection can be undertaken.
 ### Moving average:
 A parameter with a range from 0 to 15 for the moving average method to remove the noise in data.
+# Remember: This APP only provide a more convience template for processing data.
