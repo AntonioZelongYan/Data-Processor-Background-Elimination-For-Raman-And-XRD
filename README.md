@@ -19,4 +19,6 @@ Some analyses only focus on the part of the whole scan of the data. By inputting
 A parameter with a range from 0 to 15 for the moving average method to remove the noise in data.
 ### Normalization:
 The output data will be auto normalisation for ratio analysis.
-# Remember: This APP only provide a more convience template for processing data.
+## Example:
+![e3e52bd48018e192972d60867928027](https://github.com/AntonioZelongYan/Data-Processor-Background-Elimination-For-Raman-And-XRD/assets/138164005/ec1a0cf1-6736-4d60-895a-9e4ba06d52dd)
+## Remember: This APP only provide a more convience template for processing data.
