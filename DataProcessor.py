@@ -229,7 +229,7 @@ class Application(tk.Frame):
                 df.to_csv(file_path, index=False)
     #Widget Info
     def create_widget(self):
-        self.app_label = tk.Label(self.master, text="The algorithm is based on Alternating Least Squares and the Find-peak function is built in Scipy", font=("Helvetica", 16))
+        self.app_label = tk.Label(self.master, text="The algorithm is based on Asymmetric Least Squares Smoothing and the Find-peak function is built in Scipy", font=("Helvetica", 16))
         self.app_label.pack(side=tk.TOP)
         
         self.gap1 = tk.Label(self.master, text="", font=("Helvetica", 10))
