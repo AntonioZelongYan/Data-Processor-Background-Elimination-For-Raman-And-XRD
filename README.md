@@ -6,5 +6,7 @@ The Data Processor for Background Elimination addresses this issue by implementi
 ![GUI](https://github.com/AntonioZelongYan/Data-Processor-Background-Elimination-For-Raman-And-XRD/assets/138164005/ce875360-3296-44f7-bcd2-e0623094f213)
 ## Asymmetric Least Squares Smoothing Algorithm
 For people who want to have a paper reference: https://doi.org/10.1021/ac051370e
+
 There exist two variables to be adjusted: "p," which accounts for asymmetry, and "λ," denoting smoothness. Both of these variables require calibration to suit the specific dataset in question. In our observations, a typically favorable range for "p" is between 0.001 and 0.1, particularly when dealing with data featuring positive peaks. As for "λ," it's commonly effective to explore values as high as possible for Raman data, although exceptions might arise. 
+
 Also, many thanks to the answer from Rustam Guliev who provided a solution with optimized memory usage in https://stackoverflow.com/questions/29156532/python-baseline-correction-library
