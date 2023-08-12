@@ -176,7 +176,8 @@ class Application(tk.Frame):
             self.peaky.append(temp_y_data[i])
         self.ax2.clear()
         self.ax2.plot(temp_x_data, temp_y_data, color='black')
-        self.ax2.scatter(self.peakx, self.peaky, "x", c = 'red')
+ 
+        self.ax2.scatter(self.peakx, self.peaky,s=200, c='red', marker='*')
         self.ax2.set_xlabel('Wavelength')
         self.ax2.set_ylabel('Intensity')
         self.ax2.set_title('Preview')
